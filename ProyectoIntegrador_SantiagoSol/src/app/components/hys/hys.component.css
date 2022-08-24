@@ -1,0 +1,26 @@
+.text{
+    left: 33%;
+    top: 630px;
+}
+
+@media (min-width: 576px){
+    .row{
+        background-color: #a1b5cb;
+        padding: 20px;
+        display:flex;
+        width: auto;
+        margin: auto;
+        flex-direction: wrap;
+    }
+}
+
+@media (max-width: 575px){
+    .row{
+        background-color: #a1b5cb;
+        padding: 20px;
+        display:block;
+        width: auto;
+        margin: auto;
+        flex-direction: wrap;
+    }
+}
